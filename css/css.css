@@ -153,15 +153,9 @@ div h1 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-    /*transition: transform 1s;*/
+    
 }
-/*.galeriaqs:hover,
-        div:hover {
-            transform: translate(40px, 20px) 
-            /* transform: rotatey(90deg) */
-           /* transform: scale(1.2,2) */
-           /*transform: skew(-3deg,-6deg)
-        }*/
+
 div h2,
 h3,
 h4 {
