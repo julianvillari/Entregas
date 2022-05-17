@@ -275,7 +275,7 @@ fieldset {
     margin-bottom: 30px;
     margin-top: 30px;
 }
-/*CSS GRID DE GALERIA*/
+/*CSS GRID DE GALERIA
 * {
     box-sizing: border-box;
 }
@@ -349,7 +349,7 @@ img {
         grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
         grid-template-areas: 'A B C E' 'A D D E';        
     }
-}
+}*/
 
 /* Pruebas de MEDIA QUERYS
 @media (max-width: 479px) {
