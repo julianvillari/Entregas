@@ -155,9 +155,8 @@ div h1 {
     margin-bottom: 30px;
     transition: transform 1s
 }
-.galeriaqs:hover,
-        div:hover {
-        transform: skew(2deg, 4deg)
+.galeriaqs:hover {
+        transform: skew(-2deg,-4deg)
         }
 div h2,
 h3,
