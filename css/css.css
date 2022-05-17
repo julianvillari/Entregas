@@ -153,18 +153,12 @@ div h1 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-<<<<<<< HEAD
-    
-}
-
-=======
     transition: transform 1s
 }
 .galeriaqs:hover,
         div:hover {
-        transform: skew(-2deg,-4deg)
+        transform: skew(2deg, 4deg)
         }
->>>>>>> transformaciones
 div h2,
 h3,
 h4 {
@@ -235,12 +229,6 @@ h4 {
     100% {
         opacity: 0;
     }
-}
-iframe {
-    transition: transform 1s
-}
-iframe:hover {
-    transform: translate(0, 40px)
 }
 /*CSS de CONTACTO*/
 .contacto {
