@@ -91,14 +91,14 @@ section #contenido {
     justify-content: flex-end;
     padding: 16px;
 }
-/*p {
+p {
     color: rgb(0,0,0,);
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     text-align: justify;
     line-height: 1.6;
     align-items: justify;
-}*/
+}
 .div2 {
     flex-direction: row-reverse;
 }
@@ -156,6 +156,9 @@ footer {
     gap: 20px;
     align-items: center;
     padding: 16px;
+}
+.d-flex {
+    background-color: rgb(254, 144, 195);
 }
 /*CSS DE QUIEN SOY*/
 div h1 {
