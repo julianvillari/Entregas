@@ -374,13 +374,21 @@ img {
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-}
+}*/
 @media (min-width: 768px) {
     .container {
         grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
         grid-template-areas: 'A B C E' 'A D D E';        
     }
-}*/
+    .servicios {
+        justify-content: center;
+    }
+    .imagenser {
+        text-align: center;
+        margin-left: auto;
+    }
+}
+
 
 /* Pruebas de MEDIA QUERYS
 @media (max-width: 479px) {
@@ -420,4 +428,4 @@ MEDIA QUERY
         width: 500px;
         height: 350px;
     }
-}*/
+}
