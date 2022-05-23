@@ -217,6 +217,7 @@ h4 {
     background-size: cover;*/
     /*Prueba de como seria con background-img*/
 }
+
 .descripcion {
     display: flex;
     width: 50%;
@@ -234,10 +235,7 @@ p {
 .ser2 {
     flex-direction: row-reverse;
 }
-h2 {
-    font-size: 40px;
-    font-family: 'Baloo Paaji 2', cursive;
-}
+
 
 /*.servicios div ul li {
     font-size: 50px;
