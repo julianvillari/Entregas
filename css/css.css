@@ -201,7 +201,40 @@ h4 {
     flex-wrap: wrap;
     justify-content:center;
 }
-.servicios div ul li {
+.ser1,
+.ser2,
+.ser3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagen {
+    justify-content: flex-start;
+    width: 50%; /* height: 600px;
+    background-image: url("/images/jesifondo.png");
+    background-size: cover;*/
+    /*Prueba de como seria con background-img*/
+}
+.descripcion {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 16px;
+}
+p {
+    color: rgb(0,0,0,);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    align-items: justify;
+}
+.div2 {
+    flex-direction: row-reverse;
+}
+/*.servicios div ul li {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
 }
