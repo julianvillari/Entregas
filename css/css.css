@@ -231,9 +231,14 @@ p {
     line-height: 1.6;
     align-items: justify;
 }
-.div2 {
+.ser2 {
     flex-direction: row-reverse;
 }
+h2 {
+    font-size: 40px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
 /*.servicios div ul li {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
