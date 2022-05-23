@@ -144,6 +144,7 @@ div h1 {
     align-content: center;
     max-width: 1000px;
     margin: auto;
+    margin-top: 20px;
 }
 .galeriaqs {
     display: flex;
@@ -164,18 +165,25 @@ h4 {
     font-weight: normal;
     text-align: justify;
 }
+.textoqs {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .imagenes {
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
     /* max-width: 1000px; */
 }
 .galeria {
