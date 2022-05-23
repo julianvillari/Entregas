@@ -329,6 +329,9 @@ fieldset {
         justify-content:center;
         flex-direction: column;
     }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
 
 }
 @media (max-width: 768px) {
@@ -346,7 +349,7 @@ fieldset {
         width: 100%;
     }
     .descripcion {
-        width: 100%;
+        width: 300%;
     }
     footer {
         flex-direction: column;
@@ -357,6 +360,9 @@ fieldset {
     }
     .fondoPortfolio {
         width: 100%;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
     }
 }
 @media (min-width: 1200px) {
