@@ -41,8 +41,6 @@ main {
     display: flex;
     background-color: rgb(157, 211, 226);
     flex-wrap: wrap;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
 }
 section #contenido {
     display: flex;
@@ -155,15 +153,17 @@ div h1 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-    /*transition: transform 1s;*/
+    transition: all .5s;
+    position: relative;
+    border-radius: 5px;
 }
-/*.galeriaqs:hover,
-        div:hover {
-            transform: translate(40px, 20px) 
-            /* transform: rotatey(90deg) */
-           /* transform: scale(1.2,2) */
-           /*transform: skew(-3deg,-6deg)
-        }*/
+
+.galeriaqs:hover {
+    transform: scale(1.2);
+    z-index: 2;
+    cursor: pointer;
+    outline: solid 3px rgb(254, 144, 195);
+}
 div h2,
 h3,
 h4 {
@@ -219,8 +219,8 @@ h4 {
     margin-bottom: 30px;
     object-fit: cover;
     animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
 }
 @keyframes aparecer {
     0% {
@@ -292,7 +292,7 @@ body {
     display: grid;
     grid-gap: 5px;
     grid-template-areas: 'A' 'B' 'C' 'D' 'E';
-    
+
 }
 img:nth-child(1) {
     grid-area: A;
@@ -323,7 +323,7 @@ img {
     margin-left: auto;
     justify-content: space-around;
     margin-bottom: 40px;
-    
+
 }
 .navgaleria ul li {
     margin: 0 10px;
@@ -353,7 +353,7 @@ img {
 @media (min-width: 768px) {
     .container {
         grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
-        grid-template-areas: 'A B C E' 'A D D E';        
+        grid-template-areas: 'A B C E' 'A D D E';
     }
 }
 
