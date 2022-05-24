@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%;
 }
 /*CSS DEL INDEX*/
 /*CSS Menu de Navegacion*/
@@ -33,18 +32,12 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(0, 93, 84);
 }
+
 .logo {
     height: 64px;
     width: 64px;
 }
-/*Nav con bootstrap*/
-.nav-link {
-    color: black !important;
-}
 /*CSS del MAIN*/
-main {
-    background-color: rgb(157, 211, 226);
-}
 main {
     display: flex;
     background-color: rgb(157, 211, 226);
@@ -74,16 +67,13 @@ section #contenido {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 35px;
 }
 .imagen {
     justify-content: flex-start;
-
-    max-width: 100%;
-    height: auto;
-    /* height: 600px;
+    width: 50%; /* height: 600px;
     background-image: url("/images/jesifondo.png");
-    background-size: cover; */
+    background-size: cover;*/
+    /*Prueba de como seria con background-img*/
 }
 .descripcion {
     display: flex;
@@ -91,17 +81,19 @@ section #contenido {
     justify-content: flex-end;
     padding: 16px;
 }
-/*p {
+p {
     color: rgb(0,0,0,);
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     text-align: justify;
     line-height: 1.6;
     align-items: justify;
-}*/
+}
 .div2 {
     flex-direction: row-reverse;
 }
+
+
 /* CSS DEL FOOTER*/
 .copyright {
     font-size: 10px;
@@ -118,9 +110,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     color: rgb(0, 0, 0);
-}
-.d-flex {
-    background-color: rgb(254, 144, 195);
 }
 .redes {
     display: flex;
@@ -139,24 +128,6 @@ footer {
     font-family: 'Inter', sans-serif;
     font-style: none;
 }
-/*CCS FOOTER PARA BOOTSTRAP*/
-.ms-3 a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    font-style: none;
-}
-.mb-3 {
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-    padding: 16px;
-}
 /*CSS DE QUIEN SOY*/
 div h1 {
     margin-bottom: 50px;
@@ -173,6 +144,7 @@ div h1 {
     align-content: center;
     max-width: 1000px;
     margin: auto;
+    margin-top: 20px;
 }
 .galeriaqs {
     display: flex;
@@ -203,18 +175,25 @@ h4 {
     font-weight: normal;
     text-align: justify;
 }
+.textoqs {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .imagenes {
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
     /* max-width: 1000px; */
 }
 .galeria {
@@ -231,8 +210,52 @@ h4 {
     transform: scale(1.2);
     z-index: 2;
 }
+
+
 /*CSS de SERVICIOS*/
-.servicios div ul li {
+.tituloser {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.ser1,
+.ser2,
+.ser3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagen {
+    justify-content: flex-start;
+    width: 50%; /* height: 600px;
+    background-image: url("/images/jesifondo.png");
+    background-size: cover;*/
+    /*Prueba de como seria con background-img*/
+}
+
+.descripcion {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 16px;
+}
+p {
+    color: rgb(0,0,0,);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    align-items: justify;
+}
+.ser2 {
+    flex-direction: row-reverse;
+}
+
+
+/*.servicios div ul li {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
 }
@@ -249,22 +272,6 @@ h4 {
     height: 400px;
     margin-bottom: 30px;
     object-fit: cover;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
 }
 /*CSS de CONTACTO*/
 .contacto {
@@ -398,16 +405,78 @@ img {
 
 /* Pruebas de MEDIA QUERYS
 @media (max-width: 479px) {
+@media (max-width: 480px) {
     nav ul {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
     }
-}
-MEDIA QUERY 
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }.servicios div ul li p {
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
 
-@media (max-width: 479px) {
+}
+@media (max-width: 768px) {
+    nav ul {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 300%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }
+    .fondoPortfolio {
+        width: 100%;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
+}
+@media (min-width: 1200px) {
+    .galeria {
+        width: 500px;
+        height: 350px;
+    }
+}
+/*
+@media (max-width: 600px) {
     .div1,
     .div2 {
         justify-content: center;
@@ -422,16 +491,19 @@ MEDIA QUERY
         flex-direction: column;
     }
 }
-@media (max-width: 479px) {
+@media (max-width: 600px) {
     .galeria {
         width: 200px;
         height: 150px;
     }
 }
-
 @media (min-width: 1200px) {
     .galeria {
         width: 500px;
         height: 350px;
     }
 }
+*/
+
+
+
