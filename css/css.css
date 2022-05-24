@@ -184,10 +184,16 @@ div h1 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-    transition: transform 1s;
+    transition: all .5s;
+    position: relative;
+    border-radius: 5px;
 }
+
 .galeriaqs:hover {
-    transform: skew(-2deg,-4deg);
+    transform: scale(1.2);
+    z-index: 2;
+    cursor: pointer;
+    outline: solid 3px rgb(254, 144, 195);
 }
 div h2,
 h3,
@@ -317,7 +323,7 @@ body {
     display: grid;
     grid-gap: 5px;
     grid-template-areas: 'A' 'B' 'C' 'D' 'E';
-    
+
 }
 img:nth-child(1) {
     grid-area: A;
@@ -348,7 +354,7 @@ img {
     margin-left: auto;
     justify-content: space-around;
     margin-bottom: 40px;
-    
+
 }
 .navgaleria ul li {
     margin: 0 10px;
@@ -378,7 +384,7 @@ img {
 @media (min-width: 768px) {
     .container {
         grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
-        grid-template-areas: 'A B C E' 'A D D E';        
+        grid-template-areas: 'A B C E' 'A D D E';
     }
     .servicios {
         justify-content: center;
