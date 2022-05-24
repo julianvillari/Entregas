@@ -158,9 +158,8 @@ div h1 {
     margin-bottom: 30px;
     transition: all .5s;
     position: relative;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
-
 .galeriaqs:hover {
     transform: scale(1.2);
     z-index: 2;
