@@ -32,6 +32,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(0, 93, 84);
 }
+
 .logo {
     height: 64px;
     width: 64px;
@@ -66,14 +67,13 @@ section #contenido {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 35px;
 }
 .imagen {
     justify-content: flex-start;
-    width: 50%;
-    /* height: 600px;
+    width: 50%; /* height: 600px;
     background-image: url("/images/jesifondo.png");
-    background-size: cover; */
+    background-size: cover;*/
+    /*Prueba de como seria con background-img*/
 }
 .descripcion {
     display: flex;
@@ -92,6 +92,8 @@ p {
 .div2 {
     flex-direction: row-reverse;
 }
+
+
 /* CSS DEL FOOTER*/
 .copyright {
     font-size: 10px;
@@ -142,6 +144,7 @@ div h1 {
     align-content: center;
     max-width: 1000px;
     margin: auto;
+    margin-top: 20px;
 }
 .galeriaqs {
     display: flex;
@@ -153,16 +156,6 @@ div h1 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-    transition: all .5s;
-    position: relative;
-    border-radius: 5px;
-}
-
-.galeriaqs:hover {
-    transform: scale(1.2);
-    z-index: 2;
-    cursor: pointer;
-    outline: solid 3px rgb(254, 144, 195);
 }
 div h2,
 h3,
@@ -172,18 +165,25 @@ h4 {
     font-weight: normal;
     text-align: justify;
 }
+.textoqs {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .imagenes {
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
     /* max-width: 1000px; */
 }
 .galeria {
@@ -200,8 +200,52 @@ h4 {
     transform: scale(1.2);
     z-index: 2;
 }
+
+
 /*CSS de SERVICIOS*/
-.servicios div ul li {
+.tituloser {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.ser1,
+.ser2,
+.ser3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagen {
+    justify-content: flex-start;
+    width: 50%; /* height: 600px;
+    background-image: url("/images/jesifondo.png");
+    background-size: cover;*/
+    /*Prueba de como seria con background-img*/
+}
+
+.descripcion {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 16px;
+}
+p {
+    color: rgb(0,0,0,);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    align-items: justify;
+}
+.ser2 {
+    flex-direction: row-reverse;
+}
+
+
+/*.servicios div ul li {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
 }
@@ -218,22 +262,6 @@ h4 {
     height: 400px;
     margin-bottom: 30px;
     object-fit: cover;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
 }
 /*CSS de CONTACTO*/
 .contacto {
@@ -281,94 +309,78 @@ fieldset {
     margin-bottom: 30px;
     margin-top: 30px;
 }
-/*CSS GRID DE GALERIA*/
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-}
-.container {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-areas: 'A' 'B' 'C' 'D' 'E';
-
-}
-img:nth-child(1) {
-    grid-area: A;
-}
-img:nth-child(2) {
-    grid-area: B;
-}
-img:nth-child(3) {
-    grid-area: C;
-}
-img:nth-child(4) {
-    grid-area: D;
-}
-img:nth-child(5) {
-    grid-area: E;
-}
-img {
-    width: 100%;
-    height: auto;
-}
-.navgaleria {
-    grid-area: nav;
-}
-.navgaleria ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    margin-left: auto;
-    justify-content: space-around;
-    margin-bottom: 40px;
-
-}
-.navgaleria ul li {
-    margin: 0 10px;
-    color: rgb(0, 0, 0);
-    display: block;
-    position: relative;
-    font-size: 16px;
-}
-.navgaleria ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: flex;
-    font-style: none;
-}
-.footergaleria {
-    grid-area: footer;
-}
-.copyrightgaleria {
-    font-size: 10px;
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-@media (min-width: 768px) {
-    .container {
-        grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
-        grid-template-areas: 'A B C E' 'A D D E';
-    }
-}
-
-/* Pruebas de MEDIA QUERYS
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     nav ul {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
     }
-}
-MEDIA QUERY 
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }.servicios div ul li p {
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
 
-@media (max-width: 479px) {
+}
+@media (max-width: 768px) {
+    nav ul {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 300%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }
+    .fondoPortfolio {
+        width: 100%;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
+}
+@media (min-width: 1200px) {
+    .galeria {
+        width: 500px;
+        height: 350px;
+    }
+}
+/*
+@media (max-width: 600px) {
     .div1,
     .div2 {
         justify-content: center;
@@ -383,16 +395,19 @@ MEDIA QUERY
         flex-direction: column;
     }
 }
-@media (max-width: 479px) {
+@media (max-width: 600px) {
     .galeria {
         width: 200px;
         height: 150px;
     }
 }
-
 @media (min-width: 1200px) {
     .galeria {
         width: 500px;
         height: 350px;
     }
-}*/
+}
+*/
+
+
+
