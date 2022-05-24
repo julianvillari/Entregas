@@ -318,6 +318,94 @@ fieldset {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+@media (max-width: 480px) {
+    nav ul {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }.servicios div ul li p {
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
+
+}
+@media (max-width: 768px) {
+    nav ul {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .div1,
+    .div2 {
+        justify-content: center;
+    }
+    .imagen {
+        width: 100%;
+    }
+    .descripcion {
+        width: 300%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .galeria {
+        width: 200px;
+        height: 150px;
+    }
+    .fondoPortfolio {
+        width: 100%;
+    }
+    .fondoPortfolio {
+        max-width: 1000px;
+    }
+}
+@media (min-width: 1200px) {
+    .galeria {
+        width: 500px;
+        height: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PRUEBAS DE MQ*/
+
 /*CSS GRID DE GALERIA
 * {
     box-sizing: border-box;
@@ -387,7 +475,7 @@ img {
     justify-content: center;
     margin-top: 40px;
 }*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .container {
         grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
         grid-template-areas: 'A B C E' 'A D D E';
@@ -399,7 +487,9 @@ img {
         text-align: center;
         margin-left: auto;
     }
-}
+}*/
+
+
 
 
 /* Pruebas de MEDIA QUERYS
