@@ -41,6 +41,8 @@ main {
     display: flex;
     background-color: rgb(157, 211, 226);
     flex-wrap: wrap;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 section #contenido {
     display: flex;
