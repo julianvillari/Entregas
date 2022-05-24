@@ -165,7 +165,7 @@ div h1 {
     transform: scale(1.2);
     z-index: 2;
     cursor: pointer;
-    outline: solid 3px white;
+    outline: solid 3px rgb(254, 144, 195);
 }
 div h2,
 h3,
