@@ -73,3 +73,15 @@ footer {
         }
     }
 }
+.div1,
+.div2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div {
+    @extend .div1;
+    flex-direction: row-reverse;
+}
