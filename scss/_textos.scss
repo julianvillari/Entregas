@@ -20,3 +20,10 @@ div {
     margin-top:20px;
     margin-bottom: 20px;
 }
+
+@mixin fuentedeletra {
+    font-family: 'Inter', sans-serif;
+}
+p, .copyright, .redes ul li a {
+    @include fuentedeletra;
+}
