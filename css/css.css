@@ -5,6 +5,12 @@
 }
 /*CSS DEL INDEX*/
 /*CSS Menu de Navegacion*/
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(0, 0, 0);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 93, 84);
+}
 nav {
     background-color: rgb(254, 144, 195);
     display: flex;
@@ -37,6 +43,23 @@ nav ul li a:hover {
     height: 64px;
     width: 64px;
 }
+.navbar-light .navbar-toggler {
+    color: rgb(0,0,0);
+    border-color: rgb(0,0,0);
+    
+}
+    .navbar-toggler:hover {
+    text-decoration: none;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 ;
+    
+    
+  }
+
 /*CSS del MAIN*/
 main {
     display: flex;
