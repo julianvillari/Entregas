@@ -1,3 +1,7 @@
+.logo {
+    height: 64px;
+    width: 64px;
+}
 .galeriaqs {
     display: flex;
     width: 100%;
@@ -17,4 +21,29 @@
     cursor: pointer;
     outline: solid 3px rgb(254, 144, 195);
     }
+}
+.imagenes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+.galeria {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: all 0.5s;
+    position: relative;
+    margin: 20px;
+    &:hover {
+        filter: brightness(100%);
+    transform: scale(1.2);
+    z-index: 2;
+    }
+}
+.imagen {
+    justify-content: flex-start;
+    width: 50%;
 }

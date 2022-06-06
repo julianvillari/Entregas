@@ -1,12 +1,12 @@
 div {
-    h1 {
+    h2 {
         margin-bottom: 50px;
     font-family: 'Prompt', sans-serif;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
     }
-    h2,h3,h4 {
+    h3,h4,h5 {
         font-size: 20px;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: normal;
@@ -26,4 +26,21 @@ div {
 }
 p, .copyright, .redes ul li a {
     @include fuentedeletra;
+}
+
+.titulo {
+    font-family: 'Prompt', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(0, 93, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p {
+    color: rgb(0,0,0,);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    align-items: justify;
 }
