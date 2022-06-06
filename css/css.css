@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}                                 /*pasado a scss*/
+}
 /*CSS DEL INDEX*/
 /*CSS Menu de Navegacion*/
 .navbar-light .navbar-nav .nav-link {
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(0, 93, 84);
@@ -46,21 +46,18 @@ nav ul li a:hover {
 .navbar-light .navbar-toggler {
     color: rgb(0,0,0);
     border-color: rgb(0,0,0);
-    
-}
-    .navbar-toggler:hover {
-    text-decoration: none;
-  }
 
-  .navbar-toggler:focus {
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 ;
-    
-    
-  }
+    box-shadow: 0 0 0;
 
-/*NAV PASADO A SCSS*/
+}
 
 /*CSS del MAIN*/
 main {
@@ -95,7 +92,8 @@ section #contenido {
 }
 .imagen {
     justify-content: flex-start;
-    width: 50%; /* height: 600px;
+    width: 50%;
+    /* height: 600px;
     background-image: url("/images/jesifondo.png");
     background-size: cover;*/
     /*Prueba de como seria con background-img*/
@@ -115,12 +113,12 @@ p {
     align-items: justify;
 }
 .div2 {
-    
+
     flex-direction: row-reverse;
 }
 
-
-/* CSS DEL FOOTER*/  /*FOOTER PASADO A SCSS*/
+/* CSS DEL FOOTER*/
+/*FOOTER PASADO A SCSS*/
 .copyright {
     font-size: 10px;
     display: flex;
@@ -154,7 +152,6 @@ footer {
     font-family: 'Inter', sans-serif;
     font-style: none;
 }
-/*FOOTER PASADO A SCSS*/
 
 /*CSS DE QUIEN SOY*/
 div h2 {
@@ -171,8 +168,7 @@ div h2 {
     flex-wrap: wrap;
     align-content: center;
     max-width: 1000px;
-    margin: auto;
-    margin-top: 20px;
+    margin: 20px auto auto;
 }
 .galeriaqs {
     display: flex;
@@ -184,7 +180,7 @@ div h2 {
     width: 300px;
     height: 200px;
     margin-bottom: 30px;
-    transition: all .5s;
+    transition: all 0.5s;
     position: relative;
     border-radius: 5px;
 }
@@ -203,10 +199,10 @@ h5 {
     text-align: justify;
 }
 .textoqs {
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-/*QUIEN SOY PASADO AL SCSS*/
+
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
@@ -239,13 +235,12 @@ h5 {
     z-index: 2;
 }
 
-
 /*CSS de SERVICIOS*/
 .tituloser {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
 }
 .ser1,
 .ser2,
@@ -258,7 +253,8 @@ h5 {
 }
 .imagen {
     justify-content: flex-start;
-    width: 50%; /* height: 600px;
+    width: 50%;
+    /* height: 600px;
     background-image: url("/images/jesifondo.png");
     background-size: cover;*/
     /*Prueba de como seria con background-img*/
@@ -281,7 +277,6 @@ p {
 .ser2 {
     flex-direction: row-reverse;
 }
-
 
 /*.servicios div ul li {
     font-size: 50px;
@@ -370,9 +365,10 @@ fieldset {
     .galeria {
         width: 200px;
         height: 150px;
-    }.servicios div ul li p {
-        display:flex;
-        justify-content:center;
+    }
+    .servicios div ul li p {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
     }
     .fondoPortfolio {
@@ -417,21 +413,6 @@ fieldset {
         height: 350px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*PRUEBAS DE MQ*/
 
@@ -517,9 +498,6 @@ img {
         margin-left: auto;
     }
 }*/
-
-
-
 
 /* Pruebas de MEDIA QUERYS
 @media (max-width: 479px) {
@@ -622,6 +600,7 @@ img {
     }
 }
 */
+
 
 
 
