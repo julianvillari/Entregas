@@ -38,7 +38,6 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(0, 93, 84);
 }
-
 .logo {
     height: 64px;
     width: 64px;
@@ -46,19 +45,15 @@ nav ul li a:hover {
 .navbar-light .navbar-toggler {
     color: rgb(0,0,0);
     border-color: rgb(0,0,0);
-
 }
 .navbar-toggler:hover {
     text-decoration: none;
 }
-
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
     box-shadow: 0 0 0;
-
 }
-
 /*CSS del MAIN*/
 main {
     display: flex;
@@ -113,12 +108,9 @@ p {
     align-items: justify;
 }
 .div2 {
-
     flex-direction: row-reverse;
 }
-
 /* CSS DEL FOOTER*/
-/*FOOTER PASADO A SCSS*/
 .copyright {
     font-size: 10px;
     display: flex;
@@ -152,7 +144,6 @@ footer {
     font-family: 'Inter', sans-serif;
     font-style: none;
 }
-
 /*CSS DE QUIEN SOY*/
 div h2 {
     margin-bottom: 50px;
@@ -202,7 +193,6 @@ h5 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
@@ -234,7 +224,6 @@ h5 {
     transform: scale(1.2);
     z-index: 2;
 }
-
 /*CSS de SERVICIOS*/
 .tituloser {
     display: flex;
@@ -259,7 +248,6 @@ h5 {
     background-size: cover;*/
     /*Prueba de como seria con background-img*/
 }
-
 .descripcion {
     display: flex;
     width: 50%;
@@ -277,7 +265,6 @@ p {
 .ser2 {
     flex-direction: row-reverse;
 }
-
 /*.servicios div ul li {
     font-size: 50px;
     font-family: 'Amatic SC', cursive;
@@ -374,7 +361,6 @@ fieldset {
     .fondoPortfolio {
         max-width: 1000px;
     }
-
 }
 @media (max-width: 768px) {
     nav ul {
@@ -600,7 +586,3 @@ img {
     }
 }
 */
-
-
-
-
