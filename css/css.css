@@ -361,6 +361,9 @@ fieldset {
     .fondoPortfolio {
         max-width: 1000px;
     }
+    .redes ul li a {
+        padding: none;
+    }
 }
 @media (max-width: 768px) {
     nav ul {
@@ -391,6 +394,9 @@ fieldset {
     }
     .fondoPortfolio {
         max-width: 1000px;
+    }
+    .redes ul li a {
+        padding: none;
     }
 }
 @media (min-width: 1200px) {
