@@ -362,7 +362,7 @@ fieldset {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: none;
+        padding: 0px;
     }
 }
 @media (max-width: 768px) {
@@ -396,7 +396,7 @@ fieldset {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: none;
+        padding: 0px;
     }
 }
 @media (min-width: 1200px) {
