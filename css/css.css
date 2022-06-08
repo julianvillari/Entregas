@@ -383,8 +383,8 @@ fieldset {
         flex-direction: column;
     }
     .galeria {
-        width: 200px;
-        height: 150px;
+        width: 300px;
+        height: auto;
     }
     .fondoPortfolio {
         width: 100%;
