@@ -9,8 +9,15 @@
     .div2 {
         justify-content: center;
     }
+    .imageni {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 10px;
+    }
     .imagen {
         width: 100%;
+        padding: 14px;
+        margin: 10px;
     }
     .descripcion {
         width: 100%;
@@ -20,7 +27,7 @@
     }
     .galeria {
         width: 300px;
-        height: auto;
+        height: 300px;
     }
     .servicios div ul li p {
         display: flex;
@@ -33,8 +40,23 @@
     .redes ul li a {
         padding: 0px;
     }
-
+    .descripcion {
+        padding: 16px;
+    }
+    .galeriaqs {
+        width: 150px;
+        height: 150px;
+    }
+    .contacto {
+        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .titulocontacto h1 {
+        padding: 10px;
+    }
 }
+
 @media (max-width: 768px) {
     nav ul {
         align-items: center;
@@ -48,6 +70,8 @@
     }
     .imagen {
         width: 100%;
+        padding: 14px;
+        margin: 10px;
     }
     .descripcion {
         width: 300%;
@@ -57,7 +81,7 @@
     }
     .galeria {
         width: 300px;
-        height: auto;
+        height: 300px;
     }
     .fondoPortfolio {
         width: 100%;
@@ -68,10 +92,24 @@
     .redes ul li a {
         padding: 0px;
     }
+    .descripcion {
+        padding: 16px;
+    }
+    .galeriaqs {
+        width: 50%;
+    }
+    .contacto {
+        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .titulocontacto h1 {
+        padding: 10px;
+    }
 }
 @media (min-width: 1200px) {
     .galeria {
         width: 500px;
-        height: 350px;
+        height: 500px;
     }
 }

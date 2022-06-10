@@ -85,7 +85,7 @@ section #contenido {
     justify-content: flex-start;
     align-items: center;
 }
-.imagen {
+.imageni {
     justify-content: flex-start;
     width: 50%;
     /* height: 600px;
@@ -169,7 +169,7 @@ div h2 {
     max-width: 1000px;
     margin: auto;
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin-bottom: 30px;
     transition: all 0.5s;
     position: relative;
@@ -192,6 +192,7 @@ h5 {
 .textoqs {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 /*PORTFOLIO*/
 .titulo {
