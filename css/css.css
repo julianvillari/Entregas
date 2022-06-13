@@ -144,6 +144,7 @@ footer {
     font-family: 'Inter', sans-serif;
     font-style: none;
     margin-top: 10px;
+    
 }
 .logofooter {
     height: 35px;
@@ -249,10 +250,7 @@ h5 {
 .imagen {
     justify-content: flex-start;
     width: 50%;
-    /* height: 600px;
-    background-image: url("/images/jesifondo.png");
-    background-size: cover;*/
-    /*Prueba de como seria con background-img*/
+    
 }
 .descripcion {
     display: flex;
@@ -293,12 +291,11 @@ p {
 .contacto {
     background-color: rgb(0,93,84);
     display: flex;
-    max-width: 1000px;
     justify-content: center;
     align-content: center;
     font-family: 'Lexend Tera', sans-serif;
     color: white;
-    margin: 40px;
+    margin: 60px;
     flex-wrap: wrap;
 }
 .titulocontacto h1 {
@@ -321,14 +318,16 @@ p {
 .telefono {
     margin-bottom: 40px;
 }
-.email {
-    padding-bottom: 30px;
+label {
+    display: flex;
 }
 textarea {
     width: 250px;
     height: 100px;
-    padding: auto;
+    margin: 10px;   
 }
+
+
 fieldset {
     border: 5px solid rgb(241, 167, 1);
     padding: 30px;
@@ -352,16 +351,21 @@ fieldset {
         padding: 10px;
         margin-top: 10px;
     }
+    .ser1,
+    .ser2,
+    .ser3 {
+        justify-content: center;
+    }
     .imagen {
         width: 100%;
-        padding: 14px;
-        margin: 10px;
+        padding: 10px;
     }
     .descripcion {
         width: 100%;
     }
     footer {
         flex-direction: column;
+        justify-content: center;
     }
     .galeria {
         width: 300px;
@@ -377,6 +381,7 @@ fieldset {
     }
     .redes ul li a {
         padding: 0px;
+        
     }
     .descripcion {
         padding: 16px;
@@ -405,6 +410,11 @@ fieldset {
     .div2 {
         justify-content: center;
     }
+    .ser1,
+    .ser2,
+    .ser3 {
+        justify-content: center;
+    }
     .imagen {
         width: 100%;
         padding: 12px;
@@ -416,6 +426,7 @@ fieldset {
     }
     footer {
         flex-direction: column;
+        justify-content: center;
     }
     .galeria {
         width: 300px;
