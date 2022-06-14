@@ -32,7 +32,8 @@ nav ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: flex;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     font-style: none;
 }
 nav ul li a:hover {
@@ -72,7 +73,7 @@ section #contenido {
     padding: 20px;
     color: rgb(0, 93, 84);
     font-size: 20px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Cabin', sans-serif;
     text-align: bottom;
     align-items: center;
     justify-content: flex-end;
@@ -102,7 +103,8 @@ section #contenido {
 p {
     color: rgb(0,0,0,);
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     text-align: justify;
     line-height: 1.6;
     align-items: justify;
@@ -117,7 +119,8 @@ p {
     list-style: none;
     gap: 20px;
     align-items: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     padding: 16px;
 }
 footer {
@@ -141,7 +144,8 @@ footer {
     color: rgb(0, 0, 0);
     display: block;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     font-style: none;
     margin-top: 10px;
     
@@ -153,7 +157,8 @@ footer {
 /*CSS DE QUIEN SOY*/
 div h2 {
     margin-bottom: 50px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
@@ -205,7 +210,8 @@ h5 {
         justify-content: flex-end;
         color: rgb(0,0,0,);
         font-size: 18px;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
         text-align: justify;
         line-height: 1.4;
         align-items: justify;
@@ -216,7 +222,8 @@ h5 {
 }
 /*PORTFOLIO*/
 .titulo {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
@@ -246,12 +253,6 @@ h5 {
     z-index: 2;
 }
 /*CSS de SERVICIOS*/
-.tituloser {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .ser1,
 .ser2,
 .ser3 {
@@ -275,7 +276,8 @@ h5 {
 p {
     color: rgb(0,0,0,);
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     text-align: justify;
     line-height: 1.6;
     align-items: justify;
@@ -307,7 +309,8 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: 'Lexend Tera', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     color: white;
     margin: 60px;
     flex-wrap: wrap;
@@ -315,13 +318,14 @@ p {
 .titulocontacto h1 {
     color: white;
     padding: 0;
+    font-size: 60px;
 }
 .datos {
     display: flex;
     margin-bottom: 30px;
     justify-content: center;
     align-content: center;
-    max-width: 1000px;
+    
 }
 .datos1 {
     display: block;
@@ -329,8 +333,11 @@ p {
 .apellido,
 .email,
 .nombre,
-.telefono {
+.telefono,
+.mensaje {
     margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
 }
 label {
     display: flex;
@@ -345,8 +352,7 @@ textarea {
 fieldset {
     border: 5px solid rgb(241, 167, 1);
     padding: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px;
 }
 @media (max-width: 480px) {
     nav ul {
