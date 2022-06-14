@@ -305,11 +305,11 @@ h4 {
     color: white;
     margin: 60px;
     flex-wrap: wrap;
+    overflow: hidden;
 
 }
 .titulocontacto h1 {
     color: white;
-    padding: 0;
     font-size: 60px;
 }
 .datos {
@@ -432,9 +432,7 @@ form {
     }
 }
 @media (max-width: 768px) {
-   main {
-    display: block;
-   }
+   
     nav ul {
         align-items: center;
         justify-content: center;
