@@ -282,16 +282,13 @@ h4 {
     justify-content: flex-end;
     padding: 16px;
     font-size: 26px;
-}
-p {
-    color: rgb(0,0,0,);
-    font-size: 16px;
+    color: rgb(0,0,0);
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     text-align: justify;
-    line-height: 1.6;
     align-items: justify;
 }
+
 .ser2 {
     flex-direction: row-reverse;
 }
