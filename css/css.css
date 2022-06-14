@@ -93,16 +93,62 @@ section #contenido {
 }
 .imagen {
     justify-content: flex-start;
-    width: 50%; /* height: 600px;
+    width: 20%; /* height: 600px;
     background-image: url("/images/jesifondo.png");
     background-size: cover;*/
     /*Prueba de como seria con background-img*/
+}
+/*div h2,
+h3,
+h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.textoqs {
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    margin: 5px;
+}
+.escrito {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 10px;
+    color: rgb(0,0,0,);
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.4;
+    align-items: justify;
+}*/
+h2 {
+    display: block;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 16px;text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: start;
+    line-height: 1.2;
 }
 .descripcion {
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    padding: 16px;
+    padding: 16px;text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
 }
 p {
     color: rgb(0,0,0,);
