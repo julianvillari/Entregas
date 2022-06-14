@@ -153,14 +153,34 @@ footer {
     font-style: none;
 }
 /*CSS DE QUIEN SOY*/
+.carousel-item {
+    position: relative;
+    display: none;
+    float: center;
+    width: 100%;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: transform .3s ease-in-out;
+  }
+  .carousel-inner {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    float: center;
+    justify-content: center;
+    margin: 20px;
+}
+
 div h1 {
+    display: block;
     margin-bottom: 50px;
     font-family: 'Prompt', sans-serif;
     font-size: 45px;
     text-align: center;
     color: rgb(0, 93, 84);
+    
 }
-.datospersonales {
+/*.datospersonales {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -189,19 +209,56 @@ div h1 {
     z-index: 2;
     cursor: pointer;
     outline: solid 3px rgb(254, 144, 195);
-}
+}*/
 div h2,
 h3,
 h4 {
-    font-size: 20px;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: normal;
     text-align: justify;
 }
 .textoqs {
-    margin-top:20px;
-    margin-bottom: 20px;
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    margin: 5px;
 }
+.escrito {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 10px;
+    color: rgb(0,0,0,);
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+    line-height: 1.4;
+    align-items: justify;
+}
+
+div h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div h3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div h4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Prompt', sans-serif;
