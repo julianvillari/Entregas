@@ -6,10 +6,10 @@
 /*CSS DEL INDEX*/
 /*CSS Menu de Navegacion*/
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(0, 93, 84);
+    color: rgb(255, 255, 255);
 }
 nav {
     background-color: rgb(254, 144, 195);
@@ -23,13 +23,13 @@ nav ul {
 }
 nav ul li {
     margin: 0 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
     display: block;
     position: relative;
     font-size: 18px;
 }
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
     text-decoration: none;
     display: flex;
     font-family: 'Nunito', sans-serif;
@@ -37,15 +37,15 @@ nav ul li a {
     font-style: none;
 }
 nav ul li a:hover {
-    color: rgb(0, 93, 84);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
 .logo {
-    height: 64px;
-    width: 64px;
+    height: 90px;
+    width: 90px;
 }
 .navbar-light .navbar-toggler {
-    color: rgb(0,0,0);
+    color: rgb(35, 35, 35);
     border-color: rgb(0,0,0);
 }
 .navbar-toggler:hover {
@@ -59,7 +59,7 @@ nav ul li a:hover {
 /*CSS del MAIN*/
 main {
     display: flex;
-    background-color: rgb(157, 211, 226);
+    background-color: rgb(255, 212, 224);
     flex-wrap: wrap;
 }
 section #contenido {
@@ -72,7 +72,7 @@ section #contenido {
 .titulo {
     margin: 20;
     padding: 20px;
-    color: rgb(0, 93, 84);
+    color: rgb(35, 35, 35);
     font-size: 20px;
     font-family: 'Cabin', sans-serif;
     text-align: bottom;
@@ -103,7 +103,7 @@ section #contenido {
     font-size: 18px;
 }
 p {
-    color: rgb(0,0,0,);
+    color: rgb(35, 35, 35);
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
@@ -116,7 +116,7 @@ p {
 }
 /* CSS DEL FOOTER*/
 .copyright {
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     list-style: none;
     gap: 20px;
@@ -124,13 +124,14 @@ p {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     padding: 16px;
+    color: rgb(255, 255, 255);
 }
 footer {
     background-color: rgb(254, 144, 195);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
 }
 .redes {
     display: flex;
@@ -143,9 +144,9 @@ footer {
 }
 .redes ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
     display: block;
-    padding: 10px;
+    padding: 1px;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     font-style: none;
@@ -153,8 +154,8 @@ footer {
     
 }
 .logofooter {
-    height: 35px;
-    width: 35px;
+    height: 60px;
+    width: 60px;
 }
 /*CSS DE QUIEN SOY*/
 div h1 {
@@ -163,7 +164,7 @@ div h1 {
     font-weight: 300;
     font-size: 45px;
     text-align: center;
-    color: rgb(0, 93, 84);
+    color: rgb(35, 35, 35);
 }
 .datospersonales {
     display: flex;
@@ -196,7 +197,7 @@ div h1 {
 }*/
 div h2,
 h3,
-h4 {    
+h4 {
     font-weight: normal;
     text-align: justify;
     display: flex;
@@ -206,20 +207,20 @@ h4 {
     align-items: center;
 }
 .escrito {
-        display: flex;
-        width: 50%;
-        justify-content: flex-end;
-        color: rgb(0,0,0,);
-        font-size: 18px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 300;
-        text-align: justify;
-        line-height: 1.4;
-        align-items: justify;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    color: rgb(35, 35, 35);
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.4;
+    align-items: justify;
 }
 .textoqs {
-   margin: 10px;
-   padding: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 /*PORTFOLIO*/
 .titulo {
@@ -227,7 +228,7 @@ h4 {
     font-weight: 500;
     font-size: 45px;
     text-align: center;
-    color: rgb(0, 93, 84);
+    color: rgb(35, 35, 35);
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -260,7 +261,7 @@ h4 {
     font-weight: 300;
     font-size: 45px;
     text-align: center;
-    color: rgb(0, 93, 84);
+    color: rgb(35, 35, 35);
 }
 .ser1,
 .ser2,
@@ -274,7 +275,7 @@ h4 {
 .imagen {
     justify-content: flex-start;
     width: 50%;
-    
+
 }
 .descripcions {
     display: flex;
@@ -282,7 +283,7 @@ h4 {
     justify-content: flex-end;
     padding: 16px;
     font-size: 26px;
-    color: rgb(0,0,0);
+    color: rgb(35, 35, 35);
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     text-align: justify;
@@ -295,7 +296,7 @@ h4 {
 
 /*CSS de CONTACTO*/
 .contacto {
-    background-color: rgb(0,93,84);
+    background-color: rgb(205, 100, 216);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -316,19 +317,29 @@ h4 {
     margin-bottom: 30px;
     justify-content: center;
     align-content: center;
+    color: rgb(35, 35, 35);
+    text-align: center;
     
+
 }
 .datos1 {
     display: block;
+    color: rgb(35, 35, 35);    
+    width: 100%;
 }
 .apellido,
 .email,
+.mensaje,
 .nombre,
-.telefono,
-.mensaje {
-    margin-bottom: 40px;
+.telefono {
+    width: 100%;
+    margin-bottom: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    color: rgb(35, 35, 35);    
+}
+input {
+    width: 100%;
 }
 label {
     display: flex;
@@ -336,15 +347,23 @@ label {
 textarea {
     width: 250px;
     height: 100px;
-    margin: 10px;   
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
-
-
-fieldset {
-    border: 5px solid rgb(241, 167, 1);
+.boton{
+    width:125px;
+    text-align: center;
+    border: -1
+}
+form {
+    background-color: rgb(255, 212, 224);
     padding: 30px;
     margin: 30px;
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
 }
+
 @media (max-width: 480px) {
     nav ul {
         align-items: center;
@@ -390,8 +409,8 @@ fieldset {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
-        
+        padding: 0;
+
     }
     .descripcion {
         padding: 16px;
@@ -402,8 +421,6 @@ fieldset {
     }
     .contacto {
         margin: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .titulocontacto h1 {
         padding: 10px;
@@ -429,7 +446,7 @@ fieldset {
         width: 100%;
         padding: 12px;
         justify-content: center;
-       
+
     }
     .descripcion {
         width: 300%;
@@ -449,7 +466,7 @@ fieldset {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
+        padding: 0;
     }
     .descripcion {
         padding: 16px;
@@ -464,7 +481,7 @@ fieldset {
     }
     .contacto {
         margin: 20px;
-       justify-content: center;
+        justify-content: center;
     }
     .titulocontacto h1 {
         padding: 10px;
@@ -476,5 +493,3 @@ fieldset {
         height: 500px;
     }
 }
-
-
