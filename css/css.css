@@ -304,6 +304,7 @@ h4 {
     color: white;
     margin: 60px;
     flex-wrap: wrap;
+    max-width: 1000px;
 }
 .titulocontacto h1 {
     color: white;
