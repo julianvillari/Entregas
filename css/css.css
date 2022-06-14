@@ -163,12 +163,16 @@ footer {
     transition: transform .3s ease-in-out;
   }
   .carousel-inner {
-    position: relative;
-    width: 30%;
+    position: static;
+    width: 50%;
     overflow: hidden;
     float: center;
     justify-content: center;
     margin: 20px;
+}
+.imgqs {
+    width: 80%;
+    height: auto;
 }
 
 div h1 {
@@ -216,6 +220,11 @@ h4 {
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: normal;
     text-align: justify;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .textoqs {
     
@@ -237,27 +246,8 @@ h4 {
     align-items: justify;
 }
 
-div h2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-div h3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-div h4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 /*PORTFOLIO*/
 .titulo {
@@ -268,6 +258,7 @@ div h4 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .imagenes {
     display: flex;
     width: 100%;
