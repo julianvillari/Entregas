@@ -425,6 +425,10 @@ form {
     .titulocontacto h1 {
         padding: 10px;
     }
+    .contacto {
+        margin: 20px;
+        justify-content: center;
+    }
 }
 @media (max-width: 768px) {
     nav ul {
