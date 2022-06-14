@@ -365,6 +365,9 @@ form {
 }
 
 @media (max-width: 480px) {
+    main {
+        display: block;
+       }
     nav ul {
         align-items: center;
         justify-content: center;
@@ -431,6 +434,9 @@ form {
     }
 }
 @media (max-width: 768px) {
+   main {
+    display: block;
+   }
     nav ul {
         align-items: center;
         justify-content: center;
