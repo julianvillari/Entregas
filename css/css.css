@@ -295,24 +295,7 @@ p {
 .ser2 {
     flex-direction: row-reverse;
 }
-/*.servicios div ul li {
-    font-size: 50px;
-    font-family: 'Amatic SC', cursive;
-}
-.servicios div ul li p {
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.servicios h2 {
-    font-size: 40px;
-    font-family: 'Baloo Paaji 2', cursive;
-}
-.imagenser {
-    width: 400px;
-    height: 400px;
-    margin-bottom: 30px;
-    object-fit: cover;
-}
+
 /*CSS de CONTACTO*/
 .contacto {
     background-color: rgb(0,93,84);
@@ -401,10 +384,8 @@ fieldset {
         width: 300px;
         height: 300px;
     }
-    .servicios div ul li p {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    .descripcions {
+        font-size: 16px;
     }
     .fondoPortfolio {
         max-width: 1000px;
@@ -472,6 +453,10 @@ fieldset {
         padding: 0px;
     }
     .descripcion {
+        padding: 16px;
+    }
+    .descripcions {
+        font-size: 16px;
         padding: 16px;
     }
     .galeriaqs {
