@@ -175,6 +175,13 @@ div h1 {
     max-width: 1000px;
     margin: 10px auto auto;
 }
+.carousel-inner {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: center;
+}
 /*.galeriaqs {
     display: flex;
     width: 100%;
