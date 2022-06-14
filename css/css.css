@@ -386,6 +386,7 @@ fieldset {
     }
     .descripcions {
         font-size: 20px;
+        width: 70%;
     }
     .fondoPortfolio {
         max-width: 1000px;
@@ -456,7 +457,8 @@ fieldset {
         padding: 16px;
     }
     .descripcions {
-        font-size: 16px;
+        font-size: 20px;
+        width: 70%;
     }
     .galeriaqs {
         width: 60%;
