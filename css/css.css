@@ -38,6 +38,7 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: rgb(0, 93, 84);
+    text-transform: uppercase;
 }
 .logo {
     height: 64px;
