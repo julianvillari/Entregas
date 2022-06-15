@@ -15,31 +15,35 @@
         padding: 10px;
         margin-top: 10px;
     }
+    .ser1,
+    .ser2,
+    .ser3 {
+        justify-content: center;
+    }
     .imagen {
         width: 100%;
-        padding: 14px;
-        margin: 10px;
+        padding: 10px;
     }
     .descripcion {
         width: 100%;
     }
     footer {
         flex-direction: column;
+        justify-content: center;
     }
     .galeria {
         width: 300px;
         height: 300px;
     }
-    .servicios div ul li p {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    .descripcions {
+        font-size: 20px;
+        width: 70%;
     }
     .fondoPortfolio {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
+        padding: 0;
     }
     .descripcion {
         padding: 16px;
@@ -50,14 +54,15 @@
     }
     .contacto {
         margin: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .titulocontacto h1 {
         padding: 10px;
     }
+    .contacto {
+        margin: 20px;
+        justify-content: center;
+    }
 }
-
 @media (max-width: 768px) {
     nav ul {
         align-items: center;
@@ -69,16 +74,22 @@
     .div2 {
         justify-content: center;
     }
+    .ser1,
+    .ser2,
+    .ser3 {
+        justify-content: center;
+    }
     .imagen {
         width: 100%;
-        padding: 14px;
-        margin: 10px;
+        padding: 12px;
+        justify-content: center;
     }
     .descripcion {
         width: 300%;
     }
     footer {
         flex-direction: column;
+        justify-content: center;
     }
     .galeria {
         width: 300px;
@@ -91,18 +102,22 @@
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
+        padding: 0;
     }
     .descripcion {
         padding: 16px;
     }
+    .descripcions {
+        font-size: 20px;
+        width: 70%;
+    }
     .galeriaqs {
-        width: 50%;
+        width: 60%;
+        height: 60%;
     }
     .contacto {
         margin: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        justify-content: center;
     }
     .titulocontacto h1 {
         padding: 10px;
@@ -114,3 +129,4 @@
         height: 500px;
     }
 }
+

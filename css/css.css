@@ -176,13 +176,13 @@ div h1 {
     overflow: hidden;
     padding: 20px;
     justify-content: center;
-}
-.carousel-inner {
     transition: opacity 0.1s ease;
 }
 div h2,
 h3,
 h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     font-weight: normal;
     text-align: justify;
     display: flex;

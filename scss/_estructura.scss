@@ -1,3 +1,21 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(35, 35, 35);
+    &:hover {
+        color: rgb(255, 255, 255);
+    }
+}
+.navbar-light .navbar-toggler {
+    color: rgb(35, 35, 35);
+    border-color: rgb(0,0,0);
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0;
+    }
+}
 nav {
     background-color: rgb(254, 144, 195);
     display: flex;
@@ -8,70 +26,36 @@ nav {
         margin-left: auto;
         li {
             margin: 0 10px;
-            color: rgb(0, 0, 0);
+            color: rgb(35, 35, 35);
             display: block;
             position: relative;
-            font-size: 16px;
+            font-size: 18px;
             a {
-                color: rgb(0, 0, 0);
+                color: rgb(35, 35, 35);
                 text-decoration: none;
                 display: flex;
-                font-family: 'Space Grotesk', sans-serif;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 500;
                 font-style: none;
                 &:hover {
-                    color: rgb(0, 93, 84);
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
                 }
             }
         }
     }
 }
-.datospersonales {
+main {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    background-color: rgb(255, 212, 224);
     flex-wrap: wrap;
-    align-content: center;
+}
+section #contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
     max-width: 1000px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-footer {
-    background-color: rgb(254, 144, 195);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    .copyright {
-        font-size: 10px;
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        align-items: center;
-        font-family: 'Inter', sans-serif;
-        padding: 16px;
-
-    }
-}
-.redes {
-    display: flex;
-    align-items: center;
-    ul {
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        li {
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            display: block;
-            padding: 20px;
-            font-family: 'Inter', sans-serif;
-            font-style: none;
-            a {
-                color: rgb(0, 0, 0);
-            }
-        }
-    }
 }
 .div1,
 .div2 {
@@ -81,15 +65,68 @@ footer {
     justify-content: flex-start;
     align-items: center;
 }
+.div2 {
+    flex-direction: row-reverse;
+}
+footer {
+    background-color: rgb(254, 144, 195);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(35, 35, 35);
+    .copyright {
+        font-size: 12px;
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        padding: 16px;
+        color: rgb(255, 255, 255);
+    }
+}
+.redes {
+    display: flex;
+    align-items: center;
+    ul {
+        display: flex;
+    list-style: none;
+    gap: 20px;
+        li {
+            text-decoration: none;
+            color: rgb(35, 35, 35);
+            display: block;
+            padding: 1px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-style: none;
+            margin-top: 10px;
+            a {
+                color: rgb(35, 35, 35);
+            }
+        }
+    }
+}
+.logofooter {
+    height: 60px;
+    width: 60px;
+}
+.datospersonales {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1000px;
+    margin: 10px auto auto;
+}
+.ser2 {
+    flex-direction: row-reverse;
+}
 .div {
     @extend .div1;
     flex-direction: row-reverse;
-}
-.tituloser {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content:center;
 }
 .descripcion {
     display: flex;
@@ -109,48 +146,41 @@ footer {
 .ser2 {
     flex-direction: row-reverse;
 }
-.contacto {
-    background-color: rgb(0,93,84);
-    display: flex;
-    max-width: 1000px;
-    justify-content: center;
-    align-content: center;
-    font-family: 'Lexend Tera', sans-serif;
-    color: white;
-    margin: 40px auto;
-    flex-wrap: wrap;
-}
-.titulocontacto h1 {
-    color: white;
-    padding: 0;
-}
 .datos {
     display: flex;
     margin-bottom: 30px;
     justify-content: center;
     align-content: center;
-    max-width: 1000px;
+    color: rgb(35, 35, 35);
+    text-align: center;
 }
 .datos1 {
     display: block;
+    color: rgb(35, 35, 35);
+    width: 100%;
 }
-.apellido,
-.email,
-.nombre,
-.telefono {
-    margin-bottom: 40px;
+input {
+    width: 100%;
 }
-.email {
-    padding-bottom: 30px;
+label {
+    display: flex;
 }
 textarea {
     width: 250px;
     height: 100px;
-    padding: auto;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
-fieldset {
-    border: 5px solid rgb(241, 167, 1);
+.boton {
+    width: 125px;
+    text-align: center;
+    border: -1;
+}
+form {
+    background-color: rgb(255, 212, 224);
     padding: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px;
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
 }

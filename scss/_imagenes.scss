@@ -1,33 +1,25 @@
 .logo {
-    height: 64px;
-    width: 64px;
+    height: 90px;
+    width: 90px;
 }
-.galeriaqs {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-    transition: all .5s;
+.imageni {
+    justify-content: flex-start;
+    width: 50%;
+}
+.carousel-inner {
     position: relative;
-    border-radius: 5px;
-    &:hover {
-        transform: scale(1.2);
-    z-index: 2;
-    cursor: pointer;
-    outline: solid 3px rgb(254, 144, 195);
-    }
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: center;
+    transition: opacity 0.1s ease;
 }
 .imagenes {
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;    
+    gap: 10px;
 }
 .galeria {
     width: 300px;
@@ -42,6 +34,10 @@
     transform: scale(1.2);
     z-index: 2;
     }
+}
+.imagen {
+    justify-content: flex-start;
+    width: 50%;
 }
 .imageni {
     justify-content: flex-start;
