@@ -90,10 +90,6 @@ section #contenido {
 .imageni {
     justify-content: flex-start;
     width: 50%;
-    /* height: 600px;
-    background-image: url("/images/jesifondo.png");
-    background-size: cover;*/
-    /*Prueba de como seria con background-img*/
 }
 .descripcion {
     display: flex;
@@ -151,7 +147,6 @@ footer {
     font-weight: 500;
     font-style: none;
     margin-top: 10px;
-    
 }
 .logofooter {
     height: 60px;
@@ -182,31 +177,9 @@ div h1 {
     padding: 20px;
     justify-content: center;
 }
-
 .carousel-inner {
-    transition: opacity .1s ease;
+    transition: opacity 0.1s ease;
 }
-
-/*.galeriaqs {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-    position: relative;
-    border-radius: 5px;
-}
-.galeriaqs:hover {
-    transform: scale(1.2);
-    z-index: 2;
-    cursor: pointer;
-    outline: solid 3px rgb(254, 144, 195);
-}*/
 div h2,
 h3,
 h4 {
@@ -250,7 +223,6 @@ h4 {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
-    /* max-width: 1000px; */
 }
 .galeria {
     width: 300px;
@@ -287,7 +259,6 @@ h4 {
 .imagen {
     justify-content: flex-start;
     width: 50%;
-
 }
 .descripcions {
     display: flex;
@@ -301,11 +272,9 @@ h4 {
     text-align: justify;
     align-items: justify;
 }
-
 .ser2 {
     flex-direction: row-reverse;
 }
-
 /*CSS de CONTACTO*/
 .contacto {
     background-color: rgb(205, 100, 216);
@@ -318,7 +287,6 @@ h4 {
     margin: 60px;
     flex-wrap: wrap;
     overflow: hidden;
-
 }
 .titulocontacto h1 {
     color: white;
@@ -331,12 +299,10 @@ h4 {
     align-content: center;
     color: rgb(35, 35, 35);
     text-align: center;
-    
-
 }
 .datos1 {
     display: block;
-    color: rgb(35, 35, 35);    
+    color: rgb(35, 35, 35);
     width: 100%;
 }
 .apellido,
@@ -348,7 +314,7 @@ h4 {
     margin-bottom: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    color: rgb(35, 35, 35);    
+    color: rgb(35, 35, 35);
 }
 input {
     width: 100%;
@@ -362,10 +328,10 @@ textarea {
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-.boton{
-    width:125px;
+.boton {
+    width: 125px;
     text-align: center;
-    border: -1
+    border: -1;
 }
 form {
     background-color: rgb(255, 212, 224);
@@ -375,9 +341,7 @@ form {
     height: auto;
     border-radius: 7px;
 }
-
 @media (max-width: 480px) {
-   
     nav ul {
         align-items: center;
         justify-content: center;
@@ -423,7 +387,6 @@ form {
     }
     .redes ul li a {
         padding: 0;
-
     }
     .descripcion {
         padding: 16px;
@@ -444,7 +407,6 @@ form {
     }
 }
 @media (max-width: 768px) {
-   
     nav ul {
         align-items: center;
         justify-content: center;
@@ -464,7 +426,6 @@ form {
         width: 100%;
         padding: 12px;
         justify-content: center;
-
     }
     .descripcion {
         width: 300%;
