@@ -83,6 +83,11 @@ section #contenido {
     align-items: center;
     justify-content: flex-end;
 }
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 .div1,
 .div2 {
     display: flex;
@@ -91,10 +96,19 @@ section #contenido {
     justify-content: flex-start;
     align-items: center;
 }
+.presentacion {
+    display: flex;
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 93, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 hr {
     color: black; 
-    size: 5;
-    width: 300%;
+    size: 10;
+    width: 5%;
     
 }
 .imagen {
@@ -150,8 +164,9 @@ h2 {
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    padding: 16px;text-align: justify;
-    flex-direction: row;
+    padding: 16px;
+    text-align: justify;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: justify;
