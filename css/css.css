@@ -168,7 +168,7 @@ div h1 {
     flex-wrap: wrap;
     align-content: center;
     max-width: 1000px;
-    margin: 10px auto auto;
+    margin: auto;
 }
 .carousel-inner {
     position: relative;
@@ -190,8 +190,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    
 }
 .escrito {
     display: flex;
@@ -406,6 +405,9 @@ form {
         margin: 20px;
         justify-content: center;
     }
+    .datospersonales {
+        padding: 20px;
+    }
     .escrito {
         width: 100%;
     }
@@ -472,6 +474,9 @@ form {
     }
     .titulocontacto h1 {
         padding: 10px;
+    }
+    .datospersonales {
+        padding: 20px;
     }
     .escrito {
         width: 100%;
