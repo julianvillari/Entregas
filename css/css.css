@@ -171,6 +171,15 @@ div h1 {
     margin: auto;
     padding: 10px;
 }
+.tituloqs {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -191,7 +200,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+
 }
 .escrito {
     display: flex;
@@ -238,12 +247,13 @@ h4 {
 }
 /*CSS de SERVICIOS*/
 .servicios {
-    margin: 50px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
     font-size: 45px;
     text-align: center;
     color: rgb(35, 35, 35);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .ser1,
 .ser2,
@@ -322,6 +332,9 @@ button {
 label {
     display: flex;
 }
+input {
+    width: 100%;
+}
 textarea {
     width: 250px;
     height: 100px;
@@ -332,15 +345,7 @@ textarea {
     width: 125px;
     text-align: center;
     border: -1;
-    background-color: #cd64d8"
-}
-form {
-    background-color: rgb(255, 212, 224);
-    padding: 30px;
-    margin: 30px;
-    width: 450px;
-    height: auto;
-    border-radius: 7px;
+    background-color: rgb(205, 100, 216);
 }
 @media (max-width: 480px) {
     nav ul {
@@ -350,7 +355,7 @@ form {
         width: 100%;
     }
     .redes ul {
-        padding: 0px;
+        padding: 0;
     }
     .div1,
     .div2 {
@@ -390,7 +395,7 @@ form {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
+        padding: 0;
     }
     .descripcion {
         padding: 16px;
@@ -422,10 +427,10 @@ form {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0px;
+        padding: 0;
     }
     .redes ul {
-        padding: 0px;
+        padding: 0;
     }
     .div1,
     .div2 {
@@ -496,3 +501,4 @@ form {
         margin: auto;
     }
 }
+

@@ -38,7 +38,7 @@ div {
     margin: 10px;
     padding: 10px;
 }
-.titulo {
+.servicios {
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
     font-size: 45px;
@@ -46,14 +46,6 @@ div {
     color: rgb(35, 35, 35);
     margin-top: 25px;
     margin-bottom: 25px;
-}
-.servicios {
-    margin: 50px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    font-size: 45px;
-    text-align: center;
-    color: rgb(35, 35, 35);
 }
 .ser1,
 .ser2,
@@ -109,16 +101,23 @@ div {
 p, .copyright, .redes ul li a {
     @include fuentedeletra;
 }
-
-.titulo {
-    margin: 20;
-    padding: 20px;
-    color: rgb(35, 35, 35);
-    font-size: 20px;
+.tituloqs {
     font-family: 'Cabin', sans-serif;
-    text-align: bottom;
-    align-items: center;
-    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.titulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .descripcion {
     display: flex;

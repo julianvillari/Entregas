@@ -132,7 +132,8 @@ footer {
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    padding: 16px;
+    padding: 30px;
+    font-size: 18px;
 }
 .ser1,
 .ser2,
@@ -159,11 +160,16 @@ footer {
     color: rgb(35, 35, 35);
     width: 100%;
 }
-input {
+button {
     width: 100%;
+    background-color: rgb(205, 100, 216);
+    color: rgb(255, 255, 255);
 }
 label {
     display: flex;
+}
+input {
+    width: 100%;
 }
 textarea {
     width: 250px;
@@ -175,12 +181,5 @@ textarea {
     width: 125px;
     text-align: center;
     border: -1;
-}
-form {
-    background-color: rgb(255, 212, 224);
-    padding: 30px;
-    margin: 30px;
-    width: 450px;
-    height: auto;
-    border-radius: 7px;
+    background-color: rgb(205, 100, 216);
 }
