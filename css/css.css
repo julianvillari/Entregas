@@ -373,6 +373,7 @@ form {
     footer {
         flex-direction: column;
         justify-content: center;
+        padding: 0px;
     }
     .galeria {
         width: 300px;
@@ -433,6 +434,7 @@ form {
     footer {
         flex-direction: column;
         justify-content: center;
+        padding: 0px;
     }
     .galeria {
         width: 300px;
@@ -470,5 +472,9 @@ form {
     .galeria {
         width: 500px;
         height: 500px;
+    }
+    .carousel-inner {
+        width: 50%;
+        margin: auto;
     }
 }
