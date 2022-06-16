@@ -91,6 +91,12 @@ section #contenido {
     justify-content: flex-start;
     align-items: center;
 }
+hr {
+    color: black; 
+    size: 5;
+    width: 300%;
+    
+}
 .imagen {
     justify-content: flex-start;
     width: 20%; /* height: 600px;
