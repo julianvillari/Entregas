@@ -408,6 +408,9 @@ form {
         margin: 20px;
         justify-content: center;
     }
+    .escrito {
+        width: 100%;
+    }
 }
 @media (max-width: 768px) {
     nav ul {
@@ -471,6 +474,9 @@ form {
     }
     .titulocontacto h1 {
         padding: 10px;
+    }
+    .escrito {
+        width: 100%;
     }
 }
 @media (min-width: 1200px) {

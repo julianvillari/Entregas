@@ -5,6 +5,9 @@
         flex-wrap: wrap;
         width: 100%;
     }
+    .redes ul {
+        padding: 0px;
+    }
     .div1,
     .div2 {
         justify-content: center;
@@ -62,6 +65,9 @@
         margin: 20px;
         justify-content: center;
     }
+    .escrito {
+        width: 100%;
+    }
 }
 @media (max-width: 768px) {
     nav ul {
@@ -69,6 +75,9 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
+    }
+    .redes ul {
+        padding: 0px;
     }
     .div1,
     .div2 {
@@ -122,11 +131,18 @@
     .titulocontacto h1 {
         padding: 10px;
     }
+    .escrito {
+        width: 100%;
+    }
 }
 @media (min-width: 1200px) {
     .galeria {
         width: 500px;
         height: 500px;
+    }
+    .carousel-inner {
+        width: 50%;
+        margin: auto;
     }
 }
 
