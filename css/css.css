@@ -200,7 +200,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    
 }
 .escrito {
     display: flex;
@@ -347,6 +347,14 @@ textarea {
     border: -1;
     background-color: rgb(205, 100, 216);
 }
+form {
+    background-color: rgb(255, 212, 224);
+    padding: 30px;
+    margin: 30px;
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+}
 @media (max-width: 480px) {
     nav ul {
         align-items: center;
@@ -355,7 +363,7 @@ textarea {
         width: 100%;
     }
     .redes ul {
-        padding: 0;
+        padding: 0px;
     }
     .div1,
     .div2 {
@@ -395,7 +403,7 @@ textarea {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0;
+        padding: 0px;
     }
     .descripcion {
         padding: 16px;
@@ -427,10 +435,10 @@ textarea {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0;
+        padding: 0px;
     }
     .redes ul {
-        padding: 0;
+        padding: 0px;
     }
     .div1,
     .div2 {
@@ -501,4 +509,3 @@ textarea {
         margin: auto;
     }
 }
-
