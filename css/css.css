@@ -347,6 +347,8 @@ form {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
+    }
+    .redes ul {
         padding: 0px;
     }
     .div1,
@@ -387,7 +389,7 @@ form {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0;
+        padding: 0px;
     }
     .descripcion {
         padding: 16px;
@@ -413,6 +415,9 @@ form {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
+        padding: 0px;
+    }
+    .redes ul {
         padding: 0px;
     }
     .div1,
