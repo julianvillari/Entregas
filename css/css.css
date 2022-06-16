@@ -409,7 +409,7 @@ form {
         justify-content: center;
     }
     .escrito {
-        width: 100%;
+        width: 0%;
     }
 }
 @media (max-width: 768px) {
@@ -476,7 +476,7 @@ form {
         padding: 10px;
     }
     .escrito {
-        width: 100%;
+        width: 0%;
     }
 }
 @media (min-width: 1200px) {
