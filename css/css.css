@@ -169,6 +169,7 @@ div h1 {
     align-content: center;
     max-width: 1000px;
     margin: auto;
+    padding: 10px;
 }
 .carousel-inner {
     position: relative;
@@ -476,7 +477,7 @@ form {
         padding: 10px;
     }
     .datospersonales {
-        padding: 20px;
+        padding: 10px;
     }
     .escrito {
         width: 100%;
