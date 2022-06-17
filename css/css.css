@@ -201,6 +201,7 @@ h4 {
     justify-content: center;
     align-items: center;
     
+
 }
 .escrito {
     display: flex;
@@ -213,7 +214,6 @@ h4 {
     line-height: 1.4;
     align-items: justify;
 }
-
 /*PORTFOLIO*/
 .titulo {
     font-family: 'Cabin', sans-serif;
@@ -247,6 +247,9 @@ h4 {
 }
 /*CSS de SERVICIOS*/
 .servicios {
+    margin: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
     font-size: 45px;
@@ -345,7 +348,7 @@ textarea {
     width: 125px;
     text-align: center;
     border: -1;
-    background-color: rgb(205, 100, 216);
+    background-color: #cd64d8"
 }
 form {
     background-color: rgb(255, 212, 224);
@@ -364,6 +367,7 @@ form {
     }
     .redes ul {
         padding: 0px;
+        padding: 0;
     }
     .div1,
     .div2 {
@@ -404,6 +408,7 @@ form {
     }
     .redes ul li a {
         padding: 0px;
+        padding: 0;
     }
     .descripcion {
         padding: 16px;
@@ -436,9 +441,11 @@ form {
         flex-wrap: wrap;
         width: 100%;
         padding: 0px;
+        padding: 0;
     }
     .redes ul {
         padding: 0px;
+        padding: 0;
     }
     .div1,
     .div2 {
