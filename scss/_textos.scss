@@ -1,4 +1,3 @@
-
 div {
     h1 {
         margin-bottom: 50px;
@@ -8,7 +7,9 @@ div {
         text-align: center;
         color: rgb(35, 35, 35);
     }
-    h2,h3,h4 {
+    h2,
+    h3,
+    h4 {
         font-family: 'Nunito', sans-serif;
         font-weight: 300;
         font-weight: normal;
@@ -18,9 +19,9 @@ div {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        
+
     }
-    
+
     .escrito {
         display: flex;
         width: 50%;
@@ -96,9 +97,11 @@ div {
     color: rgb(35, 35, 35);
 }
 @mixin fuentedeletra {
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
-p, .copyright, .redes ul li a {
+.copyright,
+.redes ul li a,
+p {
     @include fuentedeletra;
 }
 .tituloqs {
