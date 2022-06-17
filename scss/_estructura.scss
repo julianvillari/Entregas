@@ -160,11 +160,6 @@ footer {
     color: rgb(35, 35, 35);
     width: 100%;
 }
-button {
-    width: 100%;
-    background-color: rgb(205, 100, 216);
-    color: rgb(255, 255, 255);
-}
 label {
     display: flex;
 }
@@ -177,11 +172,13 @@ textarea {
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-.boton {
+.botoncontacto {
     width: 125px;
     text-align: center;
-    border: -1;
+    border: 1px solid;
+    border-color: rgb(35, 35, 35);
     background-color: rgb(205, 100, 216);
+    color: rgb(255, 255, 255);
 }
 form {
     background-color: rgb(255, 212, 224);
