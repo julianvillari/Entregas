@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 .navbar-toggler:hover {
     text-decoration: none;
-    
+
 }
 .navbar-toggler:focus {
     text-decoration: none;
@@ -201,8 +201,6 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-
 }
 .escrito {
     display: flex;
@@ -364,7 +362,6 @@ form {
         width: 100%;
     }
     .redes ul {
-        padding: 0px;
         padding: 0;
     }
     .div1,
@@ -408,7 +405,6 @@ form {
         max-width: 1000px;
     }
     .redes ul li a {
-        padding: 0px;
         padding: 0;
     }
     .descripcion {
@@ -441,11 +437,9 @@ form {
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0px;
         padding: 0;
     }
     .redes ul {
-        padding: 0px;
         padding: 0;
     }
     .navbar-toggler:hover {
