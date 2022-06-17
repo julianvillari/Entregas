@@ -73,6 +73,12 @@ section #contenido {
     flex-wrap: nowrap;
     max-width: 1000px;
 }
+/*.tituloyparrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}*/
 .titulo {
     margin: 20;
     padding: 20px;
@@ -83,7 +89,7 @@ section #contenido {
     align-items: center;
     justify-content: flex-end;
 }
-.parrafo {
+.descripcion {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
